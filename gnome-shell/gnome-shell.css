@@ -1,0 +1,33 @@
+#panel{
+  background-color: transparent;
+}
+
+/*top-panel-menu*/
+.popup-menu-content{
+  padding: 13px;
+  border-radius: 10px;
+  border: 2px solid #d0d3d8;
+}
+.popup-menu-item:hover{
+  color: rgb(143, 7, 255);
+}
+
+
+
+
+.panel-button:hover{
+  color: #d0d3d8;
+}
+
+.slider,
+.level {
+  height: 16px;
+  -barlevel-height: 16px;
+  -barlevel-background-color: #4b4d50;
+  /* fill */
+  -barlevel-active-background-color: #b1b1b1;
+  /* overfill */
+  -barlevel-overdrive-color: #ffffff;
+  -barlevel-overdrive-separator-width: 2px;
+  -slider-handle-radius: 7px;
+}
